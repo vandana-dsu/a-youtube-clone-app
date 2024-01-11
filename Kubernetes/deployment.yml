@@ -14,10 +14,10 @@ spec:
       labels:
         app: youtube-clone-app
     spec:
-      terminationGracePeriodSeconds: 30
+      terminationGracePeriodSeconds: 
       containers:
       - name: youtube-clone-app
-        image: techtidy/youtube-clone:latest
+        image: /youtube-clone:latest
         imagePullPolicy: "Always"
         ports:
         - containerPort: 3000
